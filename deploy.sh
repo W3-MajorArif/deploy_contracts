@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 
-OWNER_ADDRESS=0x821f9c7fc786A70F11637A18Cb0aadB48065b0a7
-TOKEN_ADDRESS=0x2d3b3ba744c350dc0e90393eb4ed304a7f5a715b
-python -m deploy.deploy_testnet --chain privtest --owner OWNER_ADDRESS --token-address TOKEN_ADDRESS
+
+TOKEN_ADDRESS=0x062911adc4f030898a0b673114615bc18ba7a1a9
+python3 -m deploy.deploy_testnet --chain privtest --token-address TOKEN_ADDRESS
